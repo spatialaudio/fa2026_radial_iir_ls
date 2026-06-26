@@ -1,0 +1,29 @@
+[project]
+name = "fa2026_radial_iir_ls"
+version = "0.0.0"
+dependencies = [
+  "cvxopt",
+  "matplotlib",
+  "numpy",
+  "quadprog",
+  "qpsolvers",
+  "scipy",
+]
+requires-python = ">=3.13"
+authors = [
+  {name = "Frank Schultz", github = "fs446"},
+]
+description = """\
+  Discrete-time IIR filter design for radial filters \
+  by numerically optimised pole/zero placement.\
+  """
+readme = "README.md"
+license = "MIT"
+keywords = [
+  "radial filter",
+  "digital filter design",
+  "quadratic program",
+]
+
+[project.urls]
+Repository = "https://github.com/spatialaudio/fa2026_radial_iir_ls"
