@@ -66,7 +66,7 @@ The Matlab reference code and our Python port yield highly comparable results fo
 
 - `c = 343` m/s, speed of sound
 - `fs = 32000` Hz, sampling frequency
-- `R = 0.2` m, radius of rigid spherical radiator / source  
+- `R = 0.2` m, radius of spherical radiator / source  
 - `r = 100 / fs * c + R` = 1.271875 m, freefield radius
 - `n = 38`, spherical mode -> 6(n+1) dB/octave highpass stopband slope, which merges to a 6dB/octave slope towards DC.  
 - `Preringing_Delay = 10`, samples, note: the complementary lowpass has its impulse response peak exactly at this pre-ringing delay value, cf. Fig. 4(b) right, bottom, orange
