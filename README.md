@@ -6,6 +6,9 @@ Frank Schultz, Nara Hahn, Sascha Spors (2026): "Discrete-time IIR filter design 
 - [paper (pdf)](Schultz_2026_Dode_Radial_With_IIR_FIR_LS.pdf)
 - [poster (pdf) TBD]()
 
+Also see the related project https://github.com/spatialaudio/daga2026_dode
+that initially uses BLIIM filters, but motivated the present project.
+
 ## Abstract
 For a certain mode in spherical wave field expansions, a radial filter characterises the radially dependent diffraction phenomenon due to a spherical obstacle.
 Recently, the band-limited impulse invariance method (BLIIM) was proposed.
